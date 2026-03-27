@@ -50,7 +50,7 @@ export default function Navbar({ darkMode, toggleDark, onSearchOpen }) {
                 Ashford University
               </h1>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Autonomous Institute | Affiliated to VTU
+                Affiliated to University of Arizona
               </p>
             </div>
 

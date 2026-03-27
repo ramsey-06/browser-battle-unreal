@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ashford University Portal
 
 A modern, premium university website frontend built with React + Vite + Tailwind CSS.
@@ -60,3 +61,6 @@ src/
 - **Fonts:** Playfair Display (headings) + DM Sans (body)
 - **Colors:** blue blue primary, Teal accent, Ivory backgrounds
 - **Dark mode:** Deep charcoal backgrounds, harmonized accents
+=======
+# University_Portal
+>>>>>>> 0efbf66750b5bc627cbf5b8dc5796df3832f8bb3

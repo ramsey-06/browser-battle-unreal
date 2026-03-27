@@ -16,36 +16,86 @@ const DepartmentDetails = () => {
   }
 
   return (
-    <div className="mt-8 bg-[#0f172a] p-6 md:p-10 rounded-2xl max-w-5xl mx-auto">
+    <div className="max-w-6xl mx-auto px-6 py-10">
 
-      <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
-        {dept.name} Department
-      </h1>
+      {/* HEADER */}
+      <div className="mb-10">
+        <h1 className="text-4xl font-bold text-white mb-3">
+          {dept.name} Department
+        </h1>
+        <p className="text-gray-300 text-lg max-w-3xl">
+          {dept.about}
+        </p>
+      </div>
 
-      <p className="text-gray-300 mb-4">{dept.about}</p>
+      {/* GRID */}
+      <div className="grid md:grid-cols-2 gap-8">
 
-      <h2 className="text-blue-400 mt-4">Vision</h2>
-      <p className="text-gray-300">{dept.vision}</p>
+        {/* LEFT SIDE */}
+        <div className="space-y-6">
 
-      <h2 className="text-blue-400 mt-4">Programs</h2>
-      <ul className="text-gray-300 list-disc ml-6">
-        {dept.programs.map((p, i) => <li key={i}>{p}</li>)}
-      </ul>
+          {/* Vision */}
+          <div className="bg-[#0f172a] p-6 rounded-xl shadow border border-gray-700">
+            <h2 className="text-lg font-semibold text-blue-400 mb-2">
+              Vision
+            </h2>
+            <p className="text-gray-300">{dept.vision}</p>
+          </div>
 
-      <h2 className="text-blue-400 mt-4">Faculty</h2>
-      <ul className="text-gray-300 list-disc ml-6">
-        {dept.faculty.map((f, i) => <li key={i}>{f}</li>)}
-      </ul>
+          {/* Programs */}
+          <div className="bg-[#0f172a] p-6 rounded-xl shadow border border-gray-700">
+            <h2 className="text-lg font-semibold text-blue-400 mb-2">
+              Programs & Curriculum
+            </h2>
+            <ul className="list-disc ml-6 text-gray-300 space-y-1">
+              {dept.programs.map((p, i) => (
+                <li key={i}>{p}</li>
+              ))}
+            </ul>
+          </div>
 
-      <h2 className="text-blue-400 mt-4">Labs</h2>
-      <p className="text-gray-300">{dept.labs}</p>
+          {/* Labs */}
+          <div className="bg-[#0f172a] p-6 rounded-xl shadow border border-gray-700">
+            <h2 className="text-lg font-semibold text-blue-400 mb-2">
+              Labs & Research
+            </h2>
+            <p className="text-gray-300">{dept.labs}</p>
+          </div>
 
-      <h2 className="text-blue-400 mt-4">Contact</h2>
-      <p className="text-gray-300">
-        {dept.hod} <br />
-        {dept.email} <br />
-        {dept.phone}
-      </p>
+        </div>
+
+        {/* RIGHT SIDE */}
+        <div className="space-y-6">
+
+          {/* Faculty */}
+          <div className="bg-[#0f172a] p-6 rounded-xl shadow border border-gray-700">
+            <h2 className="text-lg font-semibold text-blue-400 mb-3">
+              Faculty
+            </h2>
+            <ul className="space-y-2 text-gray-300">
+              {dept.faculty.map((f, i) => (
+                <li key={i} className="border-b border-gray-700 pb-2">
+                  {f}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact (FIXED SAME COLOR) */}
+          <div className="bg-[#0f172a] p-6 rounded-xl shadow border border-gray-700 hover:border-blue-500 transition">
+            <h2 className="text-lg font-semibold text-blue-400 mb-2">
+              Contact (HOD)
+            </h2>
+            <p className="text-gray-300">
+              {dept.hod} <br />
+              {dept.email} <br />
+              {dept.phone}
+            </p>
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
   );

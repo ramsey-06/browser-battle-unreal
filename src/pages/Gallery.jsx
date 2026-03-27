@@ -5,7 +5,7 @@ import SectionHeader from '../components/ui/SectionHeader';
 const photos = [
   { id: 1, src: 'https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1562774053-701939374585?w=400&q=80', caption: 'Main Campus, Autumn', category: 'Campus' },
   { id: 2, src: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&q=80', caption: 'Central Library', category: 'Facilities' },
-  { id: 3, src: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&q=80', caption: 'Graduation Day 2024', category: 'Events' },
+  { id: 3, src: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80', thumb: 'https://media.istockphoto.com/id/1066324992/photo/graduation-day.jpg?s=2048x2048&w=is&k=20&c=3JYEXqDZ_Yv1-A-aOrpz_IEWbbHtjGQCugNTU8bV3pg=', caption: 'Graduation Day 2024', category: 'Events' },
   { id: 4, src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80', caption: 'Innovation Lab', category: 'Research' },
   { id: 5, src: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80', caption: 'Athletics Complex', category: 'Sports' },
   { id: 6, src: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?w=400&q=80', caption: 'Spring Cultural Festival', category: 'Events' },
@@ -14,7 +14,7 @@ const photos = [
   { id: 9, src: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&q=80', caption: 'Technology Lab', category: 'Research' },
   { id: 10, src: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&q=80', caption: 'Career Fair 2024', category: 'Events' },
   { id: 11, src: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80', thumb: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&q=80', caption: 'Alumni Networking Night', category: 'Events' },
-  { id: 12, src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80', thumb: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80', caption: 'Faculty Award Ceremony', category: 'Campus' },
+  { id: 12, src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80', thumb: 'https://images.unsplash.com/photo-1594122230689-45899d9e6f69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', caption: 'Faculty Award Ceremony', category: 'Campus' },
 ];
 
 const categories = ['All', 'Campus', 'Facilities', 'Events', 'Research', 'Sports'];

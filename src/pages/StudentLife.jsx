@@ -34,7 +34,7 @@ export default function StudentLife() {
               />
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&q=80" alt="Students" className="rounded-2xl w-full h-40 object-cover" />
+              <img src="https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Students" className="rounded-2xl w-full h-40 object-cover" />
               <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?w=400&q=80" alt="Events" className="rounded-2xl w-full h-40 object-cover mt-6" />
               <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" alt="Sports" className="rounded-2xl w-full h-40 object-cover -mt-6" />
               <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&q=80" alt="Campus" className="rounded-2xl w-full h-40 object-cover" />

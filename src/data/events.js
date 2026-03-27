@@ -17,7 +17,7 @@ export const events = [
     time: '8:00 AM – 6:00 PM',
     location: 'Campus-wide',
     category: 'Student Life',
-    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b',
+    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7',
     description: 'Welcome new students with a week of activities, tours, and social events designed to ease your transition to university life.',
     featured: true,
   },

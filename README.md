@@ -83,6 +83,4 @@ GitHub Pages: Build project and deploy the dist folder
 
 ---
 
-## Author
 
-Sanjana V Shetty

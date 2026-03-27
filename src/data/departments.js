@@ -17,7 +17,7 @@ export const departments = [
     students: 980,
     programs: 6,
     color: 'from-emerald-500 to-teal-600',
-    slug: 'business',
+    slug: 'business-administration',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const departments = [
     students: 640,
     programs: 12,
     color: 'from-purple-500 to-pink-600',
-    slug: 'arts',
+    slug: 'arts-humanities',
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const departments = [
     students: 860,
     programs: 7,
     color: 'from-red-500 to-rose-600',
-    slug: 'medicine',
+    slug: 'medical-sciences',
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ export const departments = [
     students: 740,
     programs: 9,
     color: 'from-cyan-500 to-blue-600',
-    slug: 'sciences',
+    slug: 'natural-sciences',
   },
   {
     id: 8,
